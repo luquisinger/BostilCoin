@@ -15,7 +15,7 @@ interface ERC20 {
 
 contract BostilToken is ERC20 {
     string public constant name = "BostilToken";
-    string public constant symbol = "DIO";
+    string public constant symbol = "BOSTIL";
     uint8 public constant decimals = 18;
     mapping(address => uint256) balances;
 
